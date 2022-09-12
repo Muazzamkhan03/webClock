@@ -3,4 +3,8 @@
     margin: 3vh auto;
     min-width: 10vw;
     min-height: 50vh;
+    font-size: calc(1.275rem + .3vw)!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
