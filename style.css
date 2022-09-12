@@ -1,0 +1,6 @@
+.container{
+    background-color: rgb(167, 161, 161);
+    margin: 3vh auto;
+    min-width: 10vw;
+    min-height: 50vh;
+}
