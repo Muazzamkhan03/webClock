@@ -4,12 +4,10 @@
 }
 
 nav{
-    background-color: black;
-    color: white;
-    padding: auto;
+    color: black;
     display: flex;
-    width: 100%;
     align-items: center;
+    border: 2px solid red;
     
 }
 
@@ -18,24 +16,13 @@ ul{
     height: 9vh;
 }
 
-nav ul li{
-    margin: 2vh;
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
-
 nav ul li a{
-    color: white;
-    text-decoration: none;
-}
-
-nav ul li a:hover{
-    color: aqua;
+    color: black;
 }
 
 .container{
-    background-color: rgb(167, 161, 161);
+    /* background-color: rgb(167, 161, 161); */
+    border: 2px solid blue;
     margin: 3vh 5vw;
     min-width: 10vw;
     min-height: 50vh;
