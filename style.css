@@ -3,6 +3,37 @@
     padding: 0;
 }
 
+nav{
+    background-color: black;
+    color: white;
+    padding: auto;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+}
+
+ul{
+    display: flex;
+    height: 9vh;
+}
+
+nav ul li{
+    margin: 2vh;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: aqua;
+}
+
 .container{
     background-color: rgb(167, 161, 161);
     margin: 3vh 5vw;
