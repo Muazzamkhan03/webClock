@@ -2,38 +2,56 @@
     margin: 0;
     padding: 0;
 }
-
-nav{
-    color: black;
-    display: flex;
-    align-items: center;
-    border: 2px solid red;
-    
+h1{
+    background-color: rgb(51, 0, 51);
+    font-size: 50px;
+    color: aqua;
+    font-family: 'Dancing Script';
+    font-weight:bold;
+    width:1500px;
+    height:70px;
+    text-align: center;
+    margin-left: 50px;
+    z-index: -1;
+    /* border-color: aqua; */
+    border: 2px solid aqua;
+    border-radius: 30px;
 }
-
-ul{
-    display: flex;
-    height: 9vh;
+h1:hover{
+    color: antiquewhite;
+    font-size:60px;
 }
-
-nav ul li a{
-    color: black;
-}
-
 .container{
-    /* background-color: rgb(167, 161, 161); */
-    border: 2px solid blue;
+    background: url(https://static01.nyt.com/images/2013/01/08/science/08GLOB1/08GLOB1-jumbo-v2.jpg);
+    border: 5px solid yellow;
     margin: 3vh 5vw;
-    min-width: 10vw;
-    min-height: 50vh;
-    font-size: calc(1.275rem + .3vw)!important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    min-width: 80px;
+    min-height: 80vh;
+    font-size: calc(3.5rem + .3vw)!important;
+    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 100;
+    margin-top: 0px;
+
 }
 
 @media screen and (max-width:340px) {
     .container pre{
         font-size: 5vw;
+    }}
+    #class{
+        border: 3px solid orangered;
+        font-size: 70px;
+        color:green;
+        font-family: "Sofia", sans-serif ;
+        background-color: yellow;
+        text-align: center;
+        margin-top: 50px;
     }
-}
+    #time{margin-top: 50px;
+        color:rgb(3, 3, 62);
+    }
+    #date{margin-top: 50px;
+        color:rgb(3, 3, 62);
+    }
